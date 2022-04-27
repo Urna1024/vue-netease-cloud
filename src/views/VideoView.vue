@@ -1,13 +1,13 @@
 <template>
     <HeaderCom/>
-    <h1>我的</h1>
+    <h1>视频</h1>
 </template>
 
 <script>
     import HeaderCom from "@/components/header/HeaderCom";
     
     export default {
-        name: "ProfileView",
+        name: "RadioView",
         components:{HeaderCom}
     }
 </script>

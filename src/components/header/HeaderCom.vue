@@ -21,7 +21,7 @@
         <router-link to="/profile">我的</router-link>
         <router-link to="/">发现</router-link>
         <router-link to="/yun-cun">云村</router-link>
-        <router-link to="/radio">视频</router-link>
+        <router-link to="/video">视频</router-link>
       </div>
       <router-link to="/search">
         <svg t="1650613108092"

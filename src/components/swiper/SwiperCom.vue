@@ -34,9 +34,9 @@
     },
     created() {
       //    创建之后向后台要数据，imgs[]为空数组
-      
+      this.getBannerImgs()
     },
-    mounted() {
+    updated() {//数据修改触发
       //以下代码要操作DOM
       /*created,项目创建后
       mounted,挂载之后（Vue实例挂载到真实dom对象上）,当vue实例挂载dom之后，在实例中才有真实dom存在
@@ -45,7 +45,7 @@
         // loop: true,
         autoplay: true
       })
-      this.getBannerImgs()
+     
     },
     methods: {
       async getBannerImgs() {//异步
