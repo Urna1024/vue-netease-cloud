@@ -1,14 +1,16 @@
 <template>
   <ListViewHeader/>
+  aaa
 </template>
 
 <script>
   import {getPlayListDetail} from "@/api";
   import ListViewHeader from "@/components/list-view/ListViewHeader";
+  import aaa from "@/components/list-view/aaa";
   export default {
     name: "ListView",
     components:{
-      ListViewHeader
+      ListViewHeader,aaa
     },
     data() {
       aaa:[]

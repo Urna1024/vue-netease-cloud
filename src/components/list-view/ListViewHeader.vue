@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <button>
+      <button @click="aaa">
         <svg t="1651026578126"
              class="icon"
              viewBox="0 0 1024 1024"
@@ -59,7 +59,12 @@
 
 <script>
   export default {
-    name: "ListViewHeader"
+    name: "ListViewHeader",
+    methods:{
+      aaa(){
+        this.$router.go(-1)
+      }
+    }
   }
 </script>
 <style scoped
