@@ -28,5 +28,10 @@ export function getPlayListDetail(id) {
   return axios.get(`${baseUrl}/playlist/detail?id=${id}`)
 }
 
+//获取某歌的歌词
+export function getLyric(id) {
+  return axios.get(`${baseUrl}/lyric?id=${id}`)
+}
+
 //export default 只能导出一个值
 //export可以导出多个值

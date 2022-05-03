@@ -55,6 +55,7 @@
       </router-link>
     </div>
   </div>
+  <div class="gap"></div>
 </template>
 
 <script>
@@ -73,6 +74,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;top: 10px;left: 0;
     button {
       border: 0;
       outline: none;
@@ -80,5 +82,5 @@
       vertical-align: middle;
     }
   }
-
+.gap{height: 30px}
 </style>
